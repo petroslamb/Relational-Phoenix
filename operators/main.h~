@@ -1,0 +1,30 @@
+
+
+
+
+typedef struct {
+	char table;
+	int recnum;
+	int length;
+	char value[10];
+	int key;
+	char data[80];
+
+}record;
+
+
+typedef struct {
+	char table;
+	int recnum;
+	int length;
+	char value[10];
+	char data[80];
+
+}record_new;
+
+
+void printLoads(filedata_t *);
+
+void printAggr(final_data_t );
+
+void printResults(final_data_t );

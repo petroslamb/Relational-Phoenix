@@ -1,0 +1,123 @@
+
+ preparation operator  
+results size 1080 
+results * unitsize 116640 
+
+ preparation operator  
+results size 1080 
+results * unitsize 116640 
+
+op_results length  10:
+
+selection operator 
+results size 10 
+results * unitsize 160 
+number of reducers: 4 
+value: bababbabaa MR key in keyval pair: 0 recnum: 0 key: 84 record length : 108 
+value: aabaaaaaba MR key in keyval pair: 0 recnum: 0 key: 77 record length : 108 
+value: abbbbbbbaa MR key in keyval pair: 1 recnum: 1 key: 88 record length : 108 
+value: bbbababaaa MR key in keyval pair: 1 recnum: 1 key: 24 record length : 108 
+value: bbaaaabbab MR key in keyval pair: 2 recnum: 2 key: 84 record length : 108 
+value: bbbaaabbab MR key in keyval pair: 2 recnum: 2 key: 34 record length : 108 
+value: bbbaaaaabb MR key in keyval pair: 3 recnum: 3 key: 19 record length : 108 
+value: babaababab MR key in keyval pair: 3 recnum: 3 key: 67 record length : 108 
+value: bbabaaaaaa MR key in keyval pair: 4 recnum: 4 key: 37 record length : 108 
+value: aabbabaabb MR key in keyval pair: 4 recnum: 4 key: 71 record length : 108 
+
+ preparation operator  
+results size 1080 
+results * unitsize 116640 
+
+op_results length  10:
+
+projection operator  
+results size 10 
+results * unitsize 160 
+number of reducers: 4 
+value: bababbabaa MR key in keyval pair: 0 recnum: 0 record length : 104 
+value: aabaaaaaba MR key in keyval pair: 0 recnum: 0 record length : 104 
+value: abbbbbbbaa MR key in keyval pair: 1 recnum: 1 record length : 104 
+value: bbbababaaa MR key in keyval pair: 1 recnum: 1 record length : 104 
+value: bbaaaabbab MR key in keyval pair: 2 recnum: 2 record length : 104 
+value: bbbaaabbab MR key in keyval pair: 2 recnum: 2 record length : 104 
+value: bbbaaaaabb MR key in keyval pair: 3 recnum: 3 record length : 104 
+value: babaababab MR key in keyval pair: 3 recnum: 3 record length : 104 
+value: bbabaaaaaa MR key in keyval pair: 4 recnum: 4 record length : 104 
+value: aabbabaabb MR key in keyval pair: 4 recnum: 4 record length : 104 
+
+ preparation operator  
+results size 1080 
+results * unitsize 116640 
+
+op_results length  10:
+
+sorting operator 
+results size 10 
+results * unitsize 160 
+number of reducers: 4 
+value: aabaaaaaba MR key in keyval pair: aabaaaaaba recnum: 0 record length : 108 
+value: aabbabaabb MR key in keyval pair: aabbabaabb recnum: 4 record length : 108 
+value: abbbbbbbaa MR key in keyval pair: abbbbbbbaa recnum: 1 record length : 108 
+value: babaababab MR key in keyval pair: babaababab recnum: 3 record length : 108 
+value: bababbabaa MR key in keyval pair: bababbabaa recnum: 0 record length : 108 
+value: bbaaaabbab MR key in keyval pair: bbaaaabbab recnum: 2 record length : 108 
+value: bbabaaaaaa MR key in keyval pair: bbabaaaaaa recnum: 4 record length : 108 
+value: bbbaaaaabb MR key in keyval pair: bbbaaaaabb recnum: 3 record length : 108 
+value: bbbaaabbab MR key in keyval pair: bbbaaabbab recnum: 2 record length : 108 
+value: bbbababaaa MR key in keyval pair: bbbababaaa recnum: 1 record length : 108 
+
+ preparation operator  
+results size 1080 
+results * unitsize 116640 
+
+op_results length  10:
+
+partition operator 
+results size 10 
+results * unitsize 160 
+number of reducers: 4 
+value: bbbaaabbab MR key in keyval pair: 0 recnum: 2 record length : 108 
+value: aabaaaaaba MR key in keyval pair: 0 recnum: 0 record length : 108 
+value: bbabaaaaaa MR key in keyval pair: 1 recnum: 4 record length : 108 
+value: abbbbbbbaa MR key in keyval pair: 1 recnum: 1 record length : 108 
+value: aabbabaabb MR key in keyval pair: 3 recnum: 4 record length : 108 
+value: bbaaaabbab MR key in keyval pair: 3 recnum: 2 record length : 108 
+value: bababbabaa MR key in keyval pair: 3 recnum: 0 record length : 108 
+value: bbbaaaaabb MR key in keyval pair: 3 recnum: 3 record length : 108 
+value: babaababab MR key in keyval pair: 3 recnum: 3 record length : 108 
+value: bbbababaaa MR key in keyval pair: 3 recnum: 1 record length : 108 
+
+ preparation operator  
+results size 1080 
+results * unitsize 116640 
+
+op_results length  10:
+
+aggregation operator 
+results size 10 
+results * unitsize 160 
+number of reducers: 4 
+bbaaaabbab - 1
+aabaaaaaba - 1
+bababbabaa - 1
+babaababab - 1
+bbbaaabbab - 1
+bbbababaaa - 1
+bbbaaaaabb - 1
+bbabaaaaaa - 1
+aabbabaabb - 1
+abbbbbbbaa - 1
+
+OLD selection operator 
+results size 1080 
+results * unitsize 116640 
+value: bababbabaa MR key in keyval pair: 0 recnum: 0 key: 84 record length : 108 
+value: aabaaaaaba MR key in keyval pair: 0 recnum: 0 key: 77 record length : 108 
+value: abbbbbbbaa MR key in keyval pair: 1 recnum: 1 key: 88 record length : 108 
+value: bbbababaaa MR key in keyval pair: 1 recnum: 1 key: 24 record length : 108 
+value: bbaaaabbab MR key in keyval pair: 2 recnum: 2 key: 84 record length : 108 
+value: bbbaaabbab MR key in keyval pair: 2 recnum: 2 key: 34 record length : 108 
+value: bbbaaaaabb MR key in keyval pair: 3 recnum: 3 key: 19 record length : 108 
+value: babaababab MR key in keyval pair: 3 recnum: 3 key: 67 record length : 108 
+value: bbabaaaaaa MR key in keyval pair: 4 recnum: 4 key: 37 record length : 108 
+value: aabbabaabb MR key in keyval pair: 4 recnum: 4 key: 71 record length : 108 
