@@ -3,6 +3,10 @@ Relational-Phoenix
 
 Relational operators on top of Phoenix 2
 
+Computer Science M.Sc. 2012, The University of Edinburgh
+
+Read `project.pdf` for the full dissertation.
+
 ## About
 
 This project realizes some common relational operators on top of [Phoenix](https://github.com/kozyraki/phoenix).
