@@ -5,7 +5,7 @@ Relational operators on top of Phoenix 2
 
 Computer Science M.Sc. 2012, The University of Edinburgh
 
-Read `project.pdf` for the full dissertation.
+Please read `Thesis.pdf` for the full text of the dissertation.
 
 ## About
 
